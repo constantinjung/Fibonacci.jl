@@ -19,4 +19,6 @@ function fibonacci(n::BigInt)
             return (d, c + d)
         end
     end
+end
+
 end # module Fibonacci
