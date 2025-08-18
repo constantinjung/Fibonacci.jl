@@ -1,0 +1,7 @@
+name = "Fibonacci"
+uuid = "27b732d3-1d2e-4993-bbeb-6951b76a7196"
+authors = ["Constantin Jung <conijung@gmx.de> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.7"
