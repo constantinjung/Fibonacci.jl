@@ -6,6 +6,17 @@ export fibonacci
 
 fibonacci(n :: Int) = fibonacci(BigInt(n))
 
+"""
+    fibonacci(n::BigInt) -> (F(n), F(n+1))
+
+Compute the n-th and (n+1)-th Fibonacci numbers using the fast doubling method.
+
+# Examples
+```julia-repl
+julia> fibonacci(10)
+(55, 89)
+```
+"""
 function fibonacci(n::BigInt)
     if n == 0
     return (BigInt(0),BigInt(1))
