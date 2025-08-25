@@ -29,7 +29,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
         "Fibonacci Example" => "example.md",
-        "Fibonacci Example 2" => "generated/the_fibonacci_example_script.md",
+        "Fibonacci Tutorial" => "generated/the_fibonacci_example_script.md",
     ],
 )
 
