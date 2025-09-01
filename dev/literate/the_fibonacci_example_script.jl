@@ -3,7 +3,7 @@
 # In this tutorial we demonstarte how to use the `fibonacci` function
 # form the `Fibonacci.jl` package.
 #
-# we start by loading the package:
+# We start by loading the package:
 
 using Fibonacci
 
